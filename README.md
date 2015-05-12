@@ -1,1 +1,3 @@
 # TestAutoLayoutTableViewCell
+
+注意一定要设置label的preferredMaxLayoutWidth，在这个地方卡了很久，设置好左右约束后它不会自己计算一个宽度！！！必须要自己设置一个
